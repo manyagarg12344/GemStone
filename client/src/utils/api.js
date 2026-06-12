@@ -5,7 +5,7 @@ import axios from "axios";
  * The CRA proxy (package.json → "proxy") forwards /api/* to :5000 in dev.
  */
 const api = axios.create({
-  baseURL: "https://hamara-pandit.onrender.com/api",
+  baseURL: "https://gemstone-57xh.onrender.com/api",
   timeout: 60000,
   headers: { "Content-Type": "application/json" },
 });
