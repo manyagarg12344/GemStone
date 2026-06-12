@@ -9,8 +9,8 @@ import React from "react";
  * @param {string} emoji  - Emoji to render inside (default 💎)
  */
 const GemVisual = ({ color = "#7c3aed", size = 120, emoji = "💎", name = "" }) => {
-  const id = `gem-${name.replace(/\s/g, "")}`;
-  const half = size / 2;
+  // const id = `gem-${name.replace(/\s/g, "")}`;
+  // const half = size / 2;
 
   return (
     <div

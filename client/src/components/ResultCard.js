@@ -11,12 +11,12 @@ const GEM_EMOJI = {
 };
 
 // ── Colour mapping for gemstone pills ────────────────────────────────────────
-const GEM_BG = {
-  Ruby: "#E0115F", Emerald: "#10b981", Agate: "#6b7280",
-  Pearl: "#9ca3af", Sapphire: "#0F52BA", Opal: "#7dd3fc",
-  Topaz: "#f59e0b", Turquoise: "#14b8a6", Garnet: "#722F37",
-  Amethyst: "#9B59B6", Aquamarine: "#06b6d4",
-};
+// const GEM_BG = {
+//   Ruby: "#E0115F", Emerald: "#10b981", Agate: "#6b7280",
+//   Pearl: "#9ca3af", Sapphire: "#0F52BA", Opal: "#7dd3fc",
+//   Topaz: "#f59e0b", Turquoise: "#14b8a6", Garnet: "#722F37",
+//   Amethyst: "#9B59B6", Aquamarine: "#06b6d4",
+// };
 
 /**
  * ResultCard — renders the complete recommendation result.
