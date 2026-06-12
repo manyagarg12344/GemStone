@@ -5,7 +5,7 @@ import axios from "axios";
  * The CRA proxy (package.json → "proxy") forwards /api/* to :5000 in dev.
  */
 const api = axios.create({
-  baseURL: process.env.REACT_APP_API_URL || "/api",
+  baseURL: "https://hamara-pandit.onrender.com/api",
   timeout: 15000,
   headers: { "Content-Type": "application/json" },
 });
